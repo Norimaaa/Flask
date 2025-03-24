@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<head>
+    <link rel="stylesheet" href="static/css/loginn.css">
+</head>
+<div class="textbox btn">
+    <form action="/connect" method="get">
+        <input id="login" type="text" name="login" placeholder="Login">
+        <input id="password" type="password" name="password" placeholder="Mot de passe">
+        <input id="bouton" type="submit" value="Se connecter">
+    </form>
+</div>
+{% endblock %}

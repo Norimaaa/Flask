@@ -1,0 +1,21 @@
+
+/* Bouton de connexion */
+.btn-container {
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
